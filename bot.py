@@ -28,4 +28,4 @@ async def ban_error(ctx, error):
     elif isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("❌ Você esqueceu de mencionar quem deseja banir. Use: `!ban @usuario [motivo]`", delete_after=5)
 
-bot.run("MTU1MzQ5MzAzMTk4MDYzMDA1Ng.GbZ23W.VE0J2ouZjT4Rx9mM3HUNm3Q6qLN6k-SwFBdL-U")
+bot.run("MTU1MzQ5MzAzMTk4MDYzMDA1Ng.GScPUC.oO_ior14XfjI1miyzPlOkHHVbyDGDEQn77C6IM")
