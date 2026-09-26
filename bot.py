@@ -72,7 +72,4 @@ async def ban_error(ctx, error):
         await ctx.send("❌ Você não tem permissão para banir membros!", delete_after=5)
     elif isinstance(error, commands.MissingRequiredArgument):
         await ctx.send("❌ Você esqueceu de mencionar quem deseja banir. Use: `!ban @usuario [motivo]`", delete_after=5)
-
-
-# Insira o Token do seu bot no lugar de "SEU_TOKEN_AQUI" (mantendo as aspas)
-bot.run("SEU_TOKEN_AQUI")
+bot.run("MTU1MzQ5MzAzMTk4MDYzMDA1Ng.GDC2du.7shiLT6d8KgiZpsYfaH7hFh_6sx-yhSPhJmj6E")
